@@ -24,7 +24,7 @@ header{
     background-color: #000000;
 }
 .lines{
-    height: 770px;
+    height: 900px;
     background-image: url(../img/website.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -231,7 +231,6 @@ li a{
 .main-txt{
     padding: 140px;
 }
-
 .txt-logoes{
     padding: 140px 120px;
     gap: 80px;
@@ -470,7 +469,331 @@ footer{
     font-size: 18px;
     line-height: 18px;
 }
-/* @media only screen and (max-width: 400px) {
-    header{
-        background-color: rgb(155, 155, 155);
-    } */
+@media only screen and (max-width: 400px) {
+    .lines{
+        background-image: url(../img/mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 800px;
+        width: 100%;
+    }
+    .header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 0px 18px;
+    }
+    .head{
+        padding: 40px 0px;
+    }
+    .logo{
+        display: flex;
+    }
+    .Logo h1{
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/Vector.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .Twomenu{
+        background-image: url(../img/icon.png);
+        width: 24px;
+        height: 24px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #navigation ul,#log_reg li{
+        display: none;
+    }
+    .hero-content-wrapper{
+        width: 100%;
+        padding: 28px 28px 0px 28px;
+        gap: 24px;
+    }
+    #hero-text{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+    }
+    #hero-p{
+        margin: 0 auto;
+        width: 80%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+    .link-arrow{
+        margin: 16px auto;
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+    }
+    #get-started a{
+        color: #000000;
+        padding: 12px 24px;
+        background-color: #A8FF35;
+        border-radius: 40px;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+    }
+    #get-started:hover a{
+        background-color: #ffffff;
+        color: black;
+        transition: all 1s;
+    }
+    .text-arrow{
+        display:none;
+    }
+    .socials{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0px 36px;
+    }
+    .Elon-Musk,.Product-Design,.Popular-Design,.Cryptopunk{
+        width: 300px;
+        height: 78px;
+        margin-top: -12px;
+        background-image: url(../img/tab1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        transform: matrix(1, 0.07, -0.07, 1, 0, 0);
+    }
+    .Product-Design{
+        background-image: url(../img/tab2.png);
+        transform: matrix(1, -0.03, 0.04, 1, 0, 0);
+    }
+    .Popular-Design{
+        background-image: url(../img/tab3.png);
+        transform: matrix(1, 0.03, -0.04, 1, 0, 0);
+    }
+    .Cryptopunk{
+        background-image: url(../img/tab4.png);
+        transform: matrix(1, -0.07, 0.07, 1, 0, 0);
+    }
+    .some-green{
+        width: 100%;
+        background-color: #A8FF35;
+        padding: 80px 14px;
+        gap: 30px;
+    }
+    #tab-shit{
+        font-size: 34px !important;
+        line-height: 40px !important;
+        font-weight: 700 !important;
+    }
+    .green-between{
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .green-arrow-text,.reverse-green-arrow-text{
+        gap:2px;
+    }
+    .green-arrow-text{
+        margin-top: -40px;
+        margin-left: -240px;
+    }
+    #grinside-txt{
+        width: 100px !important;
+        font-size: 12px !important;
+        transform: rotate(0deg) !important;
+    }
+    .grinside-arrow{
+        margin-left: 30px;
+        width: 28px;
+        height: 36px;
+        background-image: url(../img/Arrow\ 031.png);
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transform: rotate(-104.64deg);
+    }
+    .box{
+        padding: 24px;
+        background-color: #F5F5F5;
+        border-radius: 16px;
+    }
+    .Findtrend{
+        background-image: url(../img/tab5.png);
+        width: 300px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .reverse-green-arrow-text{
+        padding-left: 10px;
+        margin-left: 240px;
+        margin-bottom: -40px;
+    }
+    #right-grinside-text{
+        gap:2px;
+        transform: rotate(6deg) !important;
+    }
+    .reverse-arrow{
+        margin-left: -60px;
+        width: 28px;
+        height: 36px;
+        background-image: url(../img/Arrow\ 031.png);
+        background-position:right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transform: matrix(-0.9, -0.44, -0.44, 0.9, 0, 0);
+    }
+    #green-text{
+        width: 100% !important;
+        padding: 0px 30px !important;
+        font-size: 14px !important;
+        line-height: 22px !important;
+        font-weight: 400 !important;
+    }
+    .main-txt{
+        padding: 80px 20px;
+    }
+    #big-main-txt{
+        font-size: 32px !important;
+        font-weight: 900 !important;
+        line-height: 40px !important;
+    }
+    .txt-logoes{
+        padding: 80px 20px;
+        gap: 80px;
+    }
+    #logoes-txt{
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 900 !important;
+    }
+    #logoes li{
+        gap: 14px;
+    }
+    #logoes li img{
+        width: 160px;
+    }
+    .small-trend{
+        background-color: #FAFAFA;
+        padding: 80px 18px;
+        gap: 32px;
+    }
+    #trend-txt{
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 42px !important;
+        font-weight: 900 !important;
+    }
+    #web-pages{
+        width: 100%;
+        overflow: scroll;
+    }
+    #web-pages li img{
+        width: 32px !important;
+    }
+    #web-pages li a{
+        padding: 12px;
+    }
+    #twits li{
+        gap: 16px;
+    }
+    #twits li img{
+        width: 100%;
+    }
+    #More-Trend{
+        font-size: 14px !important;
+        line-height: 20px !important;
+        padding: 12px 24px !important;
+    }
+    .deal{
+        padding: 80px 18px;
+        gap: 40px;
+    }
+    #deal-head{
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    #mothly{
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+    .switch{
+        margin-top: -8px;
+    }
+    #yearly{
+        font-size: 18px !important;
+        line-height: 20px !important;
+
+    }
+    .link-arrow-last{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .text-arrow-last{
+        margin-left: -24px;
+        margin-top: -10px;
+        width: 70px;
+        height: 60px;
+        background-image: url(../img/Arrow\ 5.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position-y: top;
+        background-position-x: left ;
+        display: flex;
+        align-items:flex-end;
+    }
+    .prices{
+        display: flex;
+        flex-direction: column;
+    }
+    #sec-link,#sec-link1,#sec-link2{
+        padding: 14px 80px;
+        font-weight: 18px !important;
+        line-height: 24px !important;
+        font-weight: 700 !important;
+    }
+    .lastsection{
+        padding: 80px 18px;
+    }
+    #lastlast{
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 900 !important;
+    }
+    #lasttxt{
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 40px !important;
+        font-weight: 900 !important;
+    }
+    #lastlink{
+        font-size: 14px !important;
+        line-height: 20px !important;
+        font-weight: 700 !important;
+        padding: 12px 24px;
+    }
+    footer{
+        padding: 80px 102px;
+    }
+    .footermenu{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    #lastmenu ul{
+        display: flex ;
+        flex-direction: column !important;
+        gap: 40px !important;
+    }
+    #lastmenu ul li{
+        text-align: center;
+    }
+}

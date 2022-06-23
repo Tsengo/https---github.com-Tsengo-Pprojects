@@ -12,15 +12,15 @@ paragraph1.appendChild(p);
 
 
 
-var head1 = document.getElementById("tab-sh*t");
+var head1 = document.getElementById("tab-shit");
 var h2 = document.createTextNode("Open new tabs is sh*t ");
 head1.appendChild(h2);
 
-document.getElementById("tab-sh*t").style.fontSize = "72px";
-document.getElementById("tab-sh*t").style.lineHeight = "86px";
-document.getElementById("tab-sh*t").style.fontWeight = "700";
-document.getElementById("tab-sh*t").style.textAlign = "center";
-document.getElementById("tab-sh*t").style.color = "#000000";
+document.getElementById("tab-shit").style.fontSize = "72px";
+document.getElementById("tab-shit").style.lineHeight = "86px";
+document.getElementById("tab-shit").style.fontWeight = "700";
+document.getElementById("tab-shit").style.textAlign = "center";
+document.getElementById("tab-shit").style.color = "#000000";
 
 
 var paragraph3 = document.getElementById("green-text");
