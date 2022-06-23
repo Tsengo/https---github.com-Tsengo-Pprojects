@@ -23,9 +23,12 @@ header{
     position: relative;
     background-color: #000000;
 }
-.lines div{
+.lines{
     height: 770px;
-    border: 1px dashed #2a2a2a; 
+    background-image: url(../img/website.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 /********HEADER********/
 .header{
@@ -467,3 +470,7 @@ footer{
     font-size: 18px;
     line-height: 18px;
 }
+/* @media only screen and (max-width: 400px) {
+    header{
+        background-color: rgb(155, 155, 155);
+    } */
