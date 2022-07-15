@@ -375,7 +375,7 @@ input:checked + .slider:before {
     background-position-y: bottom;
     background-position-x: left ;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 #text{
     color: #FFFFFF;
